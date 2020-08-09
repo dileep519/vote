@@ -1,0 +1,61 @@
+.secondary-add-div{
+    display: flex;
+    flex-direction: column;
+    height:360px;
+    width:300px;
+    box-shadow: 0px 4px 16px 8px rgba(0,0,0,0.2);
+    margin:5px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.for-margin{
+    margin:5px;
+    height:84%;
+    width: 86%;
+    justify-content: center;
+}
+
+#hacker-name,#hacker-expertl,#hacker-solved{
+    width:240px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+#hacker-sub1,#hacker-sub2,#hacker-sub3,#hacker-sub4{
+    width:100px;
+    margin: 5px;
+}
+
+#hacker-sub11,#hacker-sub21,#hacker-sub31,#hacker-sub41{
+    width:100px;
+    margin: 5px;
+}
+
+.admin-cancel-but,.admin-save-but{
+    height:40px;
+    width:50%;
+    margin: 5px;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.admin-cancel-but{
+    background: #ff9f00;
+}
+
+.admin-save-but{
+    background: #fb641b;
+}
+
+.add-div-admin{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+}

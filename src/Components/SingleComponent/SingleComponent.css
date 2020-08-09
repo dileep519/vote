@@ -1,0 +1,195 @@
+.single-comp-div{
+    height:240px;
+    width:200px;
+    margin:8px;
+    background: white;
+    box-shadow: 0px 8px 16px 8px rgba(0,0,0,0.2);
+}
+
+.view-div-single{
+    display: flex;
+}
+
+
+.hacker-name{
+    font-weight: 600;
+    font-size: 1.4rem;
+    overflow: hidden;
+}
+
+.hacker-level{
+    font-weight: 400;
+}
+
+.view-div-second{
+    margin:2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.chall-solved{
+    font-weight: 600;
+}
+
+.mentfor-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.expert-div-sub{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    height:70px;
+}
+
+.before-Click-div{
+    display: flex;
+    height:240px;
+    width:200px;
+    margin:8px;
+    background: white;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+    justify-content: center;
+    align-items: center;
+}
+
+.button-to-click{
+    width:198px;
+    height:80px;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    background: #2979ff;
+    color: white;
+    cursor: pointer;
+    font-weight: 1000;
+}
+
+.voted-button{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    height: 40px;
+    width:80px;
+    background: #2979ff;
+    border-radius: 5px;
+}
+
+.voted-div-last{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    height:52px;
+    cursor: pointer;
+}
+
+.voted-button:hover{
+    box-shadow: 0px 2px 6px 8px rgba(0,0,0,0.2);
+    height:45px;
+    width: 88px;
+}
+
+.admin-last-options{
+    display: flex;
+    flex:1;
+    margin-top: 5px;
+    height: 53.5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.show-voting{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: 1000;
+    font-size: 1.5rem;
+}
+
+.admin-edit{
+    background: #ff9f00;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    height:40px;
+    width: 45%;
+    margin:5px;
+    cursor: pointer;
+    color: white;
+}
+
+.admin-delete{
+    background: #fb641b;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    height:40px;
+    width: 45%;
+    cursor: pointer;
+}
+
+.challan-solved{
+    width:40px;
+}
+
+.name-edit{
+    width:110px;
+}
+
+.expert-edit{
+    width: 40px;
+}
+
+.cancle-edit{
+    background: #ff9f00;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    height:40px;
+    width: 45%;
+    margin:5px;
+    cursor: pointer;
+    color: white;
+}
+
+.save-edit{
+    background: #fb641b;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    height:40px;
+    width: 45%;
+    cursor: pointer;
+    color: white;
+}
+
+.edit-sub-name{
+    width:30px;
+}
+
+.edit-sub-level{
+    width:30px;
+}
+
+.expert-div-sub-edit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:84px;
+}

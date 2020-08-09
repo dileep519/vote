@@ -1,0 +1,35 @@
+.signup-div-container{
+    display: flex;
+    flex-direction: column;
+    height:210px;
+}
+
+.signup-email-label{
+    padding: 10px 0px 3px 0px;
+}
+
+.signup-passw-label{
+    padding: 5px 0px 3px 0px;
+}
+
+.conf-password-label{
+    padding: 5px 0px 3px 0px;
+}
+
+.signup-but{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-button{
+    height:30px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-weight: 600;
+    background: #1565c0;
+    color:white;
+    cursor: pointer;
+}

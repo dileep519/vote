@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
+.App-ls-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-main-conatiner{
+    height: 300px;
+    width:250px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 8px rgba(0, 0, 0, 0.2);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.log-sign{
+    display: flex;
+    height:30px;
+    width: 250px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App-login{
+    font-weight: 600;
+    width:150px;
+    height: 30px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    border-radius: 15px 0px 0px 0px;
+    cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.App-signup{
+    font-weight: 600;
+    width: 150px;
+    height: 30px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    border-radius: 0px 15px 0px 0px;
+    cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-login:hover,.App-signup:hover{
+    background: #ddd;
+    color: blue;
+}
+
+.App-data-container{
+    padding: 30px;
+}
+
+.app-main-container-div{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.app-banner-container{
+    height:50px;
+    display: flex;
+    flex-direction: row;
+    background: #2196f3;
+    box-shadow: 0px 4px 16px 8px rgba(0, 0, 0, 0.2);
+}
+
+.banner-text{
+    color:white;
+    font-weight: 1000;
+}
+
+.user-logout{
+    background:#2196f3;
+    outline: none;
+    border:none;
+    color: white;
+    cursor: pointer;
+    padding: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.Add-hacker{
+    background:#2196f3;
+    outline: none;
+    border:none;
+    color: white;
+    cursor: pointer;
+    padding: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.app-admin-container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.app-user-container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home-admin-but{
+    cursor: pointer;
+    background: #2196f3;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.hackers-data-viewer{
+    display: flex;
+    flex:1;
+}
+
+.admin-main-div-add{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
 }

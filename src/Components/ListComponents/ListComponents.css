@@ -1,0 +1,8 @@
+.list-comp-div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1;
+    background: #e6e6e6;
+    justify-content: space-evenly;
+}
